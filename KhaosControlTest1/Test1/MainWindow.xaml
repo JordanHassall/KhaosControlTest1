@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Test1"
         mc:Ignorable="d"
-        Title="Test Number 1" Height="420" Width="280">
+        Title="Test Number 1" Height="420" Width="280"
+        ResizeMode="NoResize">
 
     <DockPanel Margin="10">
         <Grid DockPanel.Dock="Top" Height="330">
@@ -26,12 +27,13 @@
             </ListView>
 
             <StackPanel Grid.Column="1">
-                <local:ColourDrag Height="48" Fill ="Red"/>
-                <local:ColourDrag Height="48" Fill ="Green"/>
-                <local:ColourDrag Height="48" Fill ="Yellow"/>
-                <local:ColourDrag Height="48" Fill ="Blue"/>
-                <local:ColourDrag Height="48" Fill ="Magenta"/>
-                <local:ColourDrag Height="48" Fill ="Cyan"/>
+                <local:ColourDrag Height="47" Fill ="Red"/>
+                <local:ColourDrag Height="47" Fill ="Green"/>
+                <local:ColourDrag Height="47" Fill ="Yellow"/>
+                <local:ColourDrag Height="47" Fill ="Blue"/>
+                <local:ColourDrag Height="47" Fill ="Magenta"/>
+                <local:ColourDrag Height="47" Fill ="Cyan"/>
+                <local:ColourDragRandom Height="47" Fill="White"/>
             </StackPanel>
         </Grid>
 
